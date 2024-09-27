@@ -1,0 +1,26 @@
+{
+  "name": "cypress-with-cucumber-setup",
+  "version": "1.0.0",
+  "description": "Estrutura base para criar teste e2e utilizando cypress com cucumber",
+  "main": "index.js",
+  "scripts": {
+    "cypress:web": "npx cypress open",
+    "cypress:headless": "npx cypress run --browser electron"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber"
+  ],
+  "author": "Bruno Brito",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": "v20.12.0"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^19.2.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "browser-sync": "^2.26.2",
+    "cypress": "^13.7.2"
+  }
+}
