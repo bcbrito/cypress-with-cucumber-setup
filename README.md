@@ -21,7 +21,7 @@ cypress/
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/bcbrito/cypress.git
+   git clone https://github.com/bcbrito/cypress-with-cucumber-setup
    ```
 2. Instale as dependências:
    ```bash
